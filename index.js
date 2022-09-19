@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 const { request, response } = require('express');
 dotenv.config();
 
-const dbService=require('./dbService');
+const dbService=require('./configs/dbService');
 
 app.use(cors());
 app.use(express.json());
